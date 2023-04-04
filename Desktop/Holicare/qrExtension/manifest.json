@@ -6,5 +6,11 @@
     "action":{
         "default_popup":"qrcode.html",
         "default_icon":"qrcode.svg"
+    },
+    "background.service_worker":{
+        "scripts": ["./script.js"]
+     },
+     "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline' https://cdn.tailwindcss.com;"
     }
 }
