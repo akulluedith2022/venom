@@ -3,3 +3,5 @@ def init():
     diction={}
 init()
 
+# global variables
+
